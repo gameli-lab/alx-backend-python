@@ -3,7 +3,7 @@
 I am supposed to annotate the below function’s parameters and return
 values with the appropriate types
 '''
-from typing import Iterable, List, Sequence, Tuple
+from typing import List, Sequence, Tuple
 
 
 def element_length(lst: List[Sequence]) -> List[Tuple(Sequence, int)]:
