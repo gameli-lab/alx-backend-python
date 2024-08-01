@@ -4,9 +4,9 @@ To_string method module
 '''
 
 
-def to_string(n: float) -> str:
+def to_str(n: float) -> str:
     '''
     to string method which takes float arg
     return string
     '''
-    return (str)n
+    return str(n)
