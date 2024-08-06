@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
 '''
 This module uses sencronous function to create async func
 '''
