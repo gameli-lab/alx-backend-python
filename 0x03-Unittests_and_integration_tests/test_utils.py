@@ -13,8 +13,8 @@ class TestAccessNestedMap(unittest.TestCase):
     """
     @parameterized.expand
     def test_access_nested_map(self):
-        self.assertEqual(access_nested_map({"a": {"b": {"c": 1}}},
-                                           ["a", "b", "c"]), 1)
+        self.assertEqual(access_nested_map({"a": {"b": 1}},
+                                           ["a", "b"]), 1)
 
 
 @parameterized.expand
